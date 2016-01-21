@@ -6,19 +6,25 @@
 #red {
  width: 200px;
  height: 200px;
-    
+ display: block;
+ margin-left: 200px;
 }
 
 #yellow {
-
+ display: block;
  width: 200px;
  height: 200px;
-
+margin-left: 200px;
 }
 
 #green {
 
+ display: block;
  width: 200px;
  height: 200px;
+ margin-left:200px;
 
+}
+body {
+  text-align: center;
 }
