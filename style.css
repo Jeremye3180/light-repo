@@ -9,6 +9,8 @@
  height: 200px;
  display: block;
  margin-left: 700px;
+ transition-property: width, height;
+  transition-duration: 2s;
 }
 
 #yellow {
@@ -25,7 +27,7 @@ margin-left: 700px;
  margin-left:700px;
 
 }
-img {
+img:hover{
   text-align: center;
 }
 
