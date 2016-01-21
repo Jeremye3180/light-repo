@@ -7,23 +7,64 @@
  width: 200px;
  height: 200px;
  display: block;
+ transition: width 2s, height 2s;
+ opacity: 0.7;
+ /*position: absolute;*/
+
 }
 
 #yellow {
  display: block;
  width: 200px;
  height: 200px;
+ transition: width 2s, height 2s;
+ opacity: 0.7;
 }
 
 #green {
  display: block;
  width: 200px;
  height: 200px;
+ transition: width 2s, height 2s;
+ opacity: 0.7;
 }
 
-div:hover {
 
+#red:hover {
+ width: 500px;
+ height: 500px;
+ opacity: 1;
 }
+
+@keyframes red {
+ 0% {}
+ 50% {}
+ 100% {}
+}
+
+#yellow:hover {
+ width: 500px;
+ height: 500px;
+ opacity: 1;
+}
+@keyframes yellow {
+ 0% {}
+ 50% {}
+ 100% {}
+}
+
+
+#green:hover {
+ width: 500px;
+ height: 500px;
+ opacity: 1;
+}
+@keyframes green {
+ 0% {}
+ 50% {}
+ 100% {}
+}
+
 
 img{
   text-align: center;
@@ -49,4 +90,3 @@ h4 {
  text-align: center;
  text-shadow: 2px 2px white;
 }
-
