@@ -1,14 +1,24 @@
 #sky {
-
-  background-image: url(http://s0.geograph.org.uk/geophotos/01/92/71/1927137_2b88996d.jpg );
  background-repeat: no-repeat;
  background-size: cover;
 }
 
 #red {
-    
  width: 200px;
  height: 200px;
     
 }
 
+#yellow {
+
+ width: 200px;
+ height: 200px;
+
+}
+
+#green {
+
+ width: 200px;
+ height: 200px;
+
+}
