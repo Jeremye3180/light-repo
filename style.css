@@ -1,4 +1,5 @@
 #sky {
+ background-image: Auto_Racing_Plain_Blue.svg.png;
  background-repeat: no-repeat;
  background-size: cover;
 }
@@ -7,6 +8,7 @@
 #red {
  width: 200px;
  height: 200px;
+<<<<<<< HEAD
 }
 
 #yellow {
@@ -20,3 +22,31 @@
 }
 
 
+=======
+ display: block;
+ margin-left: 700px;
+}
+
+#yellow {
+ display: block;
+ width: 200px;
+ height: 200px;
+margin-left: 700px;
+}
+
+#green {
+ display: block;
+ width: 200px;
+ height: 200px;
+ margin-left:700px;
+
+}
+img {
+  text-align: center;
+}
+
+p {
+ 
+ 
+}
+>>>>>>> e6dd654304b44a9dccf309011a58eb46c4afb7ba
