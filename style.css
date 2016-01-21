@@ -7,7 +7,7 @@
  width: 200px;
  height: 200px;
  display: block;
- transition: width 2s, height 2s;
+ transition: transform 2s;
  opacity: 0.7;
  /*position: absolute;*/
 
@@ -17,7 +17,7 @@
  display: block;
  width: 200px;
  height: 200px;
- transition: width 2s, height 2s;
+ transition: transform 2s ;
  opacity: 0.7;
 }
 
@@ -25,15 +25,14 @@
  display: block;
  width: 200px;
  height: 200px;
- transition: width 2s, height 2s;
+ transition: transform 2s;
  opacity: 0.7;
 }
 
 
 #red:hover {
- width: 500px;
- height: 500px;
  opacity: 1;
+ transform: rotateY(360deg);
 }
 
 @keyframes red {
@@ -43,9 +42,8 @@
 }
 
 #yellow:hover {
- width: 500px;
- height: 500px;
  opacity: 1;
+ transform: rotateZ(360deg);
 }
 @keyframes yellow {
  0% {}
@@ -55,9 +53,8 @@
 
 
 #green:hover {
- width: 500px;
- height: 500px;
  opacity: 1;
+ transform: rotateX(360deg);
 }
 @keyframes green {
  0% {}
@@ -78,16 +75,19 @@ h1 {
 
 h2 {
  text-align: center;
- text-shadow: 2px 2px white;
+ text-shadow: 2px 2px red;
+ font-size: 25px;
 }
 
 h3 {
  text-align: center;
- text-shadow: 2px 2px white;
+ text-shadow: 2px 2px yellow;
+ font-size: 25px;
 }
 
 h4 {
  text-align: center;
- text-shadow: 2px 2px white;
+ text-shadow: 2px 2px lightgreen;
+ font-size: 25px;
 }
 
