@@ -1,5 +1,5 @@
 #sky {
- background-image: Auto_Racing_Plain_Blue.svg.png;
+ background: lightblue;
  background-repeat: no-repeat;
  background-size: cover;
 }
@@ -8,21 +8,6 @@
 #red {
  width: 200px;
  height: 200px;
-<<<<<<< HEAD
-}
-
-#yellow {
- width: 200px;
- height: 200px;
-}
-
-#green {
- width: 200px;
- height: 200px;
-}
-
-
-=======
  display: block;
  margin-left: 700px;
 }
@@ -45,8 +30,22 @@ img {
   text-align: center;
 }
 
-p {
- 
- 
+h1 {
+ text-align: center;
+ text-shadow: 2px 2px white;
 }
->>>>>>> e6dd654304b44a9dccf309011a58eb46c4afb7ba
+
+h2 {
+ text-align: center;
+ text-shadow: 2px 2px white;
+}
+
+h3 {
+ text-align: center;
+ text-shadow: 2px 2px white;
+}
+
+h4 {
+ text-align: center;
+ text-shadow: 2px 2px white;
+}
