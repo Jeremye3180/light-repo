@@ -68,26 +68,32 @@ img{
    margin-left: 850px;
 }
 
-h1 {
+#title {
+ position: relative;
  text-align: center;
  text-shadow: 2px 2px white;
+ animation: title 2s linear 3s infinite alternate;
 }
 
+@keyframes title {
+ from{left:200px;}
+ to{left:0px;}
+} 
 h2 {
  text-align: center;
  text-shadow: 2px 2px red;
- font-size: 25px;
+ font-size: 30px;
 }
 
 h3 {
  text-align: center;
  text-shadow: 2px 2px yellow;
- font-size: 25px;
+ font-size: 30px;
 }
 
 h4 {
  text-align: center;
  text-shadow: 2px 2px lightgreen;
- font-size: 25px;
+ font-size: 30px;
 }
 
