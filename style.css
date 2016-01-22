@@ -1,84 +1,71 @@
 #sky {
- background: linear-gradient(navy, white); 
+ background: linear-gradient(navy, white); /*creates dual color effect in the background*/
 }
-
 
 #red {
  width: 200px;
  height: 200px;
  display: block;
- transition: transform 2s;
- opacity: 0.7;
- /*position: absolute;*/
-
+ transition: transform 2s; /*states the amount of time the red circle will spin*/
+ opacity: 0.7;/*makes original red circle color darker*/
 }
 
 #yellow {
  display: block;
  width: 200px;
  height: 200px;
- transition: transform 2s ;
- opacity: 0.7;
+ transition: transform 2s; /*states the amount of time the yellow circle will spin*/
+ opacity: 0.7;/*makes original yellow circle color darker*/
 }
 
 #green {
  display: block;
  width: 200px;
  height: 200px;
- transition: transform 2s;
- opacity: 0.7;
+ transition: transform 2s; /*states the amount of time the green circle will spin*/
+ opacity: 0.7; /*makes original green circle color darker*/
 }
 
-
-#red:hover {
- opacity: 1;
+#red:hover { /*allows the red circle to be selected when the mouse is over it*/
+ opacity: 1; /* when hovered, the circle will become brighter*/
  transform: rotateY(360deg);
 }
 
-@keyframes red {
- 0% {}
- 50% {}
- 100% {}
-}
 
-#yellow:hover {
- opacity: 1;
+
+#yellow:hover { /*allows the yellow circle to be selected when the mouse is over it*/
+ opacity: 1; /* when hovered, the yellow circle will become brighter*/
  transform: rotateZ(360deg);
 }
-@keyframes yellow {
- 0% {}
- 50% {}
- 100% {}
-}
 
 
-#green:hover {
- opacity: 1;
+
+#green:hover { /*allows the green circle to be selected when the mouse is over it*/
+ opacity: 1; /* when hovered, the green circle will become brighter*/
  transform: rotateX(360deg);
 }
-@keyframes green {
- 0% {}
- 50% {}
- 100% {}
-}
 
 
-img{
-  text-align: center;
-   margin-left: 850px;
+img {
+ text-align: center;
+ margin-left: 850px;
 }
 
 #title {
- position: relative;
+ position: relative; /*pushes title away from the walls of the browser*/
  text-align: center;
  text-shadow: 2px 2px white;
- animation: title 2s linear 3s infinite alternate;
+ animation: title 2s linear 3s infinite alternate; /* from left to right, this line defines the amount speed, delay, and direction the animation uses.*/
 }
 
-@keyframes title {
- from{left:200px;}
- to{left:0px;}
-} 
+@keyframes title { /*defines how the background will be colored in*/
+ from {
+  left: 200px;
+ }
+ to {
+  left: 0px;
+ }
+}
 
 h2 {
  text-align: center;
@@ -97,4 +84,3 @@ h4 {
  text-shadow: 2px 2px lightgreen;
  font-size: 30px;
 }
-
